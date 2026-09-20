@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
-      - uses: GitCod3r/cra-evidence/github-action@v0.2.0
+      - uses: GitCod3r/cra-evidence/github-action@v0.2.1
         with:
           image_ref: docker.io/stefanprodan/podinfo:6.7.1
           product_name: podinfo
