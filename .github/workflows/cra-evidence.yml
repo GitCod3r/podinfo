@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
-      - uses: GitCod3r/cra-evidence/github-action@v0.2.1
+      - uses: GitCod3r/cra-evidence/github-action@v0.2.2
         with:
           image_ref: docker.io/library/debian:12.0   # section 8: old image, KEV-listed CVEs expected
           product_name: podinfo
