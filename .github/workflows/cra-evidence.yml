@@ -10,5 +10,5 @@ jobs:
       - uses: actions/checkout@v5
       - uses: GitCod3r/cra-evidence/github-action@v0.2.1
         with:
-          image_ref: docker.io/stefanprodan/podinfo:6.7.1
+          image_ref: docker.io/library/debian:12.0   # section 8: old image, KEV-listed CVEs expected
           product_name: podinfo
